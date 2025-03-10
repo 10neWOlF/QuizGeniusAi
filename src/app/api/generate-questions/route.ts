@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { generateQuestions } from "@/lib/openrouter";
+import { generateQuestions } from "../../../lib/openrouter";
 
 export async function POST(request: Request) {
   try {
